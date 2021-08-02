@@ -1,0 +1,445 @@
+<html>
+
+  <head>
+
+    <title>BERITA HARIAN</title>
+
+    <style>
+
+      .header {
+
+        margin: auto;
+
+        overflow: hidden;
+
+        width: 100%;
+
+      }
+
+      .header_logo {
+
+        padding: 90px;
+
+        float: left;
+
+      }
+
+      .header_logo img {
+
+        width: 90px;
+
+      }
+
+      .header_greeting {
+
+        float: left;
+
+        margin: auto;
+
+        text-align: center;
+
+        padding: 90px;
+
+        font-size: 10mm;
+
+        font-weight: bold;
+
+      }
+
+      .social-icon {
+
+        padding: 5px;
+
+        border-radius: 50%;
+
+        margin-top: 50px;
+
+        float: right;
+
+        padding-bottom: 50px;
+
+      }
+
+      .social-icon img {
+
+        width: 20px;
+
+      }
+
+      .nav {
+
+        list-style: none;
+
+        background: black;
+
+        display: flex;
+
+        -webkit-flex-flow: row wrap;
+
+        justify-content: flex;
+
+        align-items: center;
+
+      }
+
+      .nav ul {
+
+        list-style-type: none;
+
+        margin: auto;
+
+      }
+
+      .nav li {
+
+        float: right;
+
+        color: white;
+
+      }
+
+      .nav a {
+
+        text-decoration: none;
+
+        display: block;
+
+        padding: 15px;
+
+        color: white;
+
+      }
+
+      .nav li:hover {
+
+        background: antiquewhite;
+
+        color: black;
+
+        font-weight: bold;
+
+      }
+
+      .nav a:hover {
+
+        color:black;
+
+        font-weight: bold;
+
+      }
+
+      .spacer {
+
+        flex-grow: 1;
+
+      }
+
+      .formright {
+
+        padding: 10px;
+
+      }
+
+      @media (max-width: 800px) {
+
+        nav .formright {
+
+          display: none;
+
+        }
+
+      }
+
+      .content {
+
+        background-color: gray;
+
+      }
+
+      table {
+
+        background-color: white;
+
+        border: 5px solid lightgray;
+
+        text-align: center;
+
+        width: 500px;
+
+        margin: auto;
+
+      }
+
+      .white {
+
+        background-color: rgb(255,255,255)
+
+      }
+
+      .white {
+
+        background-color: rgb(255,255,255)
+
+      }
+
+      .gold {
+
+        background-color: rgb(255,215,0)
+
+      }
+
+      .silver {
+
+        background-color: rgb(192,192,192)
+
+      }
+
+      .brown {
+
+        background-color: rgb(165,42,42)
+
+      }
+
+      .lightgreen {
+
+        background-color: rgb(144, 238, 144)
+
+      }
+
+      .slider {
+
+        background-color: white;
+
+      }
+
+     .slider img{
+
+       background-color: white;
+
+         width: 70px;
+
+      }
+
+      .footer {
+
+        text-align: center;
+
+        padding: 5px;
+
+        background-color: black;
+
+        color: white;
+
+      }
+
+      *{
+
+        box-sizing: border-box;
+
+        margin: 0;
+
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <!--Header-->
+
+    <div class="header">
+
+      <div class="header_logo"><img src="images/logo.png"></div>
+
+      <div class="header_greeting">
+
+        BERITA HARIAN
+
+      </div>
+
+      <div class="social-icon">
+
+        <img src="images/youtube.png">
+
+        <img src="images/instagram.png">
+
+        <img src="images/twitter.png">
+
+        <img src="images/facebook.png">
+
+      </div>
+
+    </div>
+
+    <!--Menu-->
+
+    <div class="nav">
+
+      <li><a href="#">BERITA</a></li>
+
+      <li><a href="#">SUKAN</a></li>
+
+      <li><a href="#">DUNIA</a></li>
+
+      <li><a href="#">HIBURAN</a></li>
+
+      <div class="spacer"></div>
+
+      <form class="formright">
+
+        <input type="text" placeholder="Masuk kata kunci">
+
+        <button type="submit">Cari</button>
+
+      </form>
+
+    </div>
+
+    <!--Content-->
+
+    <div class="content">
+
+      <marquee direction="up">
+
+        <center>
+
+        <table border="2">
+
+          <colgroup>
+
+            <col class="white" />
+
+            <col class="white" />
+
+            <col class="gold" />
+
+            <col class="silver" />
+
+            <col class="brown" />
+
+            <col class="lightgreen" />
+
+          </colgroup>
+
+          <thead>
+
+            
+
+            <tr>
+
+               <th>Bil</th>
+
+               <th>Negara</th>
+
+               <th>Emas</th>
+
+               <th>Perak</th>
+
+               <th>Gangsa</th>
+
+               <th>Jumlah</th>
+
+            </tr>
+
+            <tr>
+
+               <td>1</td>
+
+               <td>China</td>
+
+               <td>27</td>
+
+               <td>45</td>
+
+               <td>16</td>
+
+               <td>88</td>
+
+            </tr>
+
+            <tr>
+
+               <td>2</td>
+
+               <td>Japan</td>
+
+               <td>22</td>
+
+               <td>12</td>
+
+               <td>19</td>
+
+               <td>53</td>
+
+            </tr>
+
+            <tr>
+
+               <td>3</td>
+
+               <td>America</td>
+
+               <td>20</td>
+
+               <td>56</td>
+
+               <td>2</td>
+
+               <td>78</td>
+
+            </tr>
+
+            <tr>
+
+               <td>4</td>
+
+               <td>ROC</td>
+
+               <td>15</td>
+
+               <td>24</td>
+
+               <td>32</td>
+
+               <td>61</td>
+
+            </tr>
+
+        </table>
+
+          </center>
+
+      </marquee>
+
+      <br>
+
+      <!--Slider-->
+
+      <div class="slider">
+
+      <marquee direction="left">
+
+        <img src="images/football.png"><font>Bola Sepak</font>
+
+        <img src="images/rugby.png"<font>Ragbi</font>
+
+        <img src="images/netball.png"<font>Bola Jaring</font>
+
+        <img src="images/swimming.png"<font>Berenang</font>
+
+      </marquee>
+
+     
+
+    <!--Footer-->
+
+    <div class="footer">
+
+      <font>Copyright &copy; Berita Harian, 2021</font>
+
+    </div>
+
+  </body>
+
+</html>
